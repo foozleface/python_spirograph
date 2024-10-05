@@ -65,33 +65,18 @@ def generate_pattern():
     patterns = Patterns()
     patterns_meta = [
         {
-            'pattern': patterns.get_pattern('banana'),
+            'pattern': patterns.get_pattern('croissant'),
             'translations': {
-                'x_offset': 1000,
-                'y_offset': 0,
-                'scale_x': 1.2,
-                'scale_y': 1.2,
-                'rotation_angle': 15
+                'x_offset': 293,
+                'y_offset': 88,
+                'scale_x': 0.82,
+                'scale_y': 0.8,
+                'rotation_angle': 0
             }
-        },
-        {
-            'pattern': patterns.get_pattern('triangle_test'),
-            # No translations (this pattern stays in its default position and size)
         },
         {
             'pattern': patterns.get_pattern('meta_spiral'),
-            'translations': {
-                'x_offset': 2900,
-
-            }
-        },
-        {
-            'pattern': patterns.get_pattern('x_ray_shell'),
-            'translations': {
-                'x_offset': -4900,
-                'scale_x': 3,
-                'scale_y': 3,
-            }
+            # No translations (this pattern stays in its default position and size)
         }
     ]
 

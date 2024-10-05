@@ -75,7 +75,7 @@ class Patterns():
                 transform(spiral_transforms.variable_spiral_transform, start_rate=0.01, end_rate=1.1, a=1, b=1),
                 transform(standard_transforms.circular_motion, radius=950, speed=0.006),
             ],
-            'rotations': 200
+            'rotations': 185
         }
 
     def create_transform_set_2(self):
